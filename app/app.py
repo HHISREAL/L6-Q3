@@ -20,7 +20,7 @@ def hello_world():
         predictions = model.predict([np_arr])  
         predictions_to_str = str(predictions)
         #return predictions_to_str
-        return render_template('index.html', href2='The suitable destination for you (salary:'+str(salary)+' ,gender:'+str(mygender)+' ,marital:'+str(mymarital)+' ,) is:'+predictions_to_str)
+        return render_template('index.html', href2='The suitable destination for you (salary:'+str(mysalary)+' ,gender:'+str(mygender)+' ,marital:'+str(mymarital)+' ,) is:'+predictions_to_str)
 
 
 
